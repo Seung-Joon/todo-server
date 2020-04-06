@@ -1,8 +1,8 @@
 # todo-server
 
-# DB Init
 
-# Set DB charset
+
+### Set DB charset
 ```
 show variables like '%character%';
 
@@ -20,4 +20,13 @@ show variables like '%collation%';
 set collation_connection = utf8;
 set collation_database = utf8;
 set collation_server = utf8;
+```
+
+### Set DB Local Time (Asia/Seoul)
+```
+select now(); 
+
+show variables like '%time_zone%'; 
+
+set system_time_zone = 'Asia/Seoul';
 ```
