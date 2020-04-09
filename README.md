@@ -32,6 +32,6 @@ set system_time_zone = 'Asia/Seoul';
 ```
 
 ### DB Schema
-<img src="https://imgur.com/a7yx6ER" width="40%" title="DB Schema"></img>
+![Alt text](https://imgur.com/a7yx6ER)
 
 
